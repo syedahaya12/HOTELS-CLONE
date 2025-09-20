@@ -1,0 +1,58 @@
+[02-Sep-2025 16:40:12 UTC] Sample city from database: New York
+[02-Sep-2025 16:40:12 UTC] Default hotel count: 3
+[02-Sep-2025 16:40:32 UTC] Sample city from database: New York
+[02-Sep-2025 16:40:32 UTC] Default hotel count: 3
+[02-Sep-2025 16:40:32 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:40:32 UTC] Search result count: 0
+[02-Sep-2025 16:40:52 UTC] Sample city from database: New York
+[02-Sep-2025 16:40:52 UTC] Default hotel count: 3
+[02-Sep-2025 16:40:52 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:40:52 UTC] Search result count: 0
+[02-Sep-2025 16:41:05 UTC] Sample city from database: New York
+[02-Sep-2025 16:41:05 UTC] Default hotel count: 3
+[02-Sep-2025 16:41:05 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:41:05 UTC] Search result count: 0
+[02-Sep-2025 16:50:49 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 16:50:49 UTC] Default hotel count: 3
+[02-Sep-2025 16:51:12 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 16:51:12 UTC] Default hotel count: 3
+[02-Sep-2025 16:51:12 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: dubai
+[02-Sep-2025 16:51:12 UTC] Search result count for 'dubai': 0, Query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ? AND price_per_night <= ? AND rating >= ?, Params: %dubai%, 100, 5
+[02-Sep-2025 16:51:21 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 16:51:21 UTC] Default hotel count: 3
+[02-Sep-2025 16:51:21 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:51:21 UTC] Search result count for 'new york': 0, Query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ? AND price_per_night <= ? AND rating >= ?, Params: %new york%, 100, 5
+[02-Sep-2025 16:51:34 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 16:51:34 UTC] Default hotel count: 3
+[02-Sep-2025 16:51:34 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:51:34 UTC] Search result count for 'new york': 0, Query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ? AND price_per_night <= ? AND rating >= ?, Params: %new york%, 100, 5
+[02-Sep-2025 16:51:46 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 16:51:46 UTC] Default hotel count: 3
+[02-Sep-2025 16:51:46 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: new york
+[02-Sep-2025 16:51:46 UTC] Search result count for 'new york': 0, Query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ? AND price_per_night <= ? AND rating >= ?, Params: %new york%, 100, 5
+[02-Sep-2025 17:18:03 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 17:18:03 UTC] Default hotel count: 3
+[02-Sep-2025 17:18:44 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 17:18:44 UTC] Default hotel count: 3
+[02-Sep-2025 17:19:09 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 17:19:09 UTC] Default hotel count: 3
+[02-Sep-2025 17:19:14 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 17:19:14 UTC] Default hotel count: 3
+[02-Sep-2025 17:19:29 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[02-Sep-2025 17:19:29 UTC] Default hotel count: 3
+[04-Sep-2025 13:01:52 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 13:01:52 UTC] Default hotel count: 3
+[04-Sep-2025 13:46:35 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 13:46:35 UTC] Default hotel count: 3
+[04-Sep-2025 16:21:33 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 16:21:33 UTC] Default hotel count: 3
+[04-Sep-2025 16:21:37 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 16:21:37 UTC] Default hotel count: 3
+[04-Sep-2025 16:27:09 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 16:27:09 UTC] Default hotel count: 3
+[04-Sep-2025 16:27:49 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 16:27:49 UTC] Default hotel count: 3
+[04-Sep-2025 16:27:49 UTC] Search query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ?, Param: miami
+[04-Sep-2025 16:27:49 UTC] Search result count for 'miami': 0, Query: SELECT * FROM hotels WHERE 1=1 AND LOWER(TRIM(city)) LIKE ? AND price_per_night <= ? AND rating >= ?, Params: %miami%, 100, 5
+[04-Sep-2025 19:29:21 UTC] Sample city from database (hex): 4e657720596f726b, raw: New York
+[04-Sep-2025 19:29:21 UTC] Default hotel count: 3
